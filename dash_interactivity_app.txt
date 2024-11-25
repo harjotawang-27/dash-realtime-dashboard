@@ -1,1 +1,1 @@
-web: python dash_interactivity.py
+web: gunicorn dash_interactivity:server
